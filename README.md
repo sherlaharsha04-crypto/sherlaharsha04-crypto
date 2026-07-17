@@ -37,15 +37,34 @@
 
 ---
 
+
+
 ## 🐍 Contribution Snake
 
-![snake](https://raw.githubusercontent.com/sherlaharsha04-crypto/sherlaharsha04-crypto/output/github-contribution-grid-snake.svg)
+<p align="center">
 
----
+<img
+src="https://raw.githubusercontent.com/sherlaharsha04-crypto/sherlaharsha04-crypto/output/github-contribution-grid-snake-dark.svg"
+alt="snake animation"/>
+
+</p>
 
 ## 📫 Connect
 
-- Email: sherlaharsha27@gmail.com
-- GitHub: https://github.com/sherlaharsha04-crypto
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:7C3AED,100:06B6D4&height=120&section=header&text=Connect%20With%20Me&fontSize=40&fontColor=ffffff"/>
+
+<a href="mailto:sherlaharsha27@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+<a href="https://github.com/sherlaharsha04-crypto">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sherlaharsha04-crypto&theme=tokyo-night&hide_border=true"/>
 
 </div>
