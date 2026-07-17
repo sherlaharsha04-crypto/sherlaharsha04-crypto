@@ -1,10 +1,262 @@
-<svg width="800" height="180" xmlns="http://www.w3.org/2000/svg">
-<rect width="100%" height="100%" rx="25" fill="#111827"/>
-<text x="40" y="50" fill="white" font-size="30">
-GitHub Stats
+<svg width="1000"
+height="420"
+viewBox="0 0 1000 420"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#030712"/>
+<stop offset="100%" stop-color="#111827"/>
+
+</linearGradient>
+
+<linearGradient id="glass">
+
+<stop offset="0%"
+stop-color="#ffffff"
+stop-opacity="0.18"/>
+
+<stop offset="100%"
+stop-color="#ffffff"
+stop-opacity="0.05"/>
+
+</linearGradient>
+
+<linearGradient id="title">
+
+<stop offset="0%"
+stop-color="#8B5CF6"/>
+
+<stop offset="100%"
+stop-color="#06B6D4"/>
+
+</linearGradient>
+
+</defs>
+
+<!-- Background -->
+
+<rect
+width="100%"
+height="100%"
+rx="45"
+fill="url(#bg)"/>
+
+<!-- Glow -->
+
+<circle
+cx="150"
+cy="80"
+r="180"
+fill="#8B5CF6"
+opacity="0.15"/>
+
+<circle
+cx="860"
+cy="320"
+r="180"
+fill="#06B6D4"
+opacity="0.15"/>
+
+<!-- Header -->
+
+<text
+x="500"
+y="65"
+text-anchor="middle"
+font-size="38"
+font-weight="700"
+fill="url(#title)"
+font-family="Arial">
+
+FULL STACK PYTHON
+
 </text>
 
-<text x="40" y="95" fill="#8b5cf6">⭐ Python Projects : Growing</text>
-<text x="40" y="125" fill="#06b6d4">🚀 React Projects : Active</text>
-<text x="40" y="155" fill="#22c55e">💻 Full Stack Journey : Ongoing</text>
+<text
+x="500"
+y="100"
+text-anchor="middle"
+font-size="18"
+fill="#94A3B8">
+
+Developer Statistics Dashboard
+
+</text>
+
+<!-- Main Glass Card -->
+
+<rect
+x="120"
+y="130"
+width="760"
+height="240"
+rx="45"
+fill="url(#glass)"
+stroke="#ffffff25"/>
+
+<!-- Reflection -->
+
+<rect
+x="150"
+y="145"
+width="700"
+height="35"
+rx="18"
+fill="#ffffff12"/>
+
+<!-- Name -->
+
+<text
+x="500"
+y="220"
+text-anchor="middle"
+font-size="32"
+font-weight="700"
+fill="white">
+
+SHERLA HARSHAVARDHAN
+
+</text>
+
+<!-- Role -->
+
+<text
+x="500"
+y="255"
+text-anchor="middle"
+font-size="20"
+fill="#CBD5E1">
+
+Full Stack Python Developer
+
+</text>
+
+<!-- GitHub -->
+
+<text
+x="500"
+y="285"
+text-anchor="middle"
+font-size="16"
+fill="#94A3B8">
+
+@sherlaharsha04-crypto
+
+</text>
+
+<!-- Tagline -->
+
+<text
+x="500"
+y="315"
+text-anchor="middle"
+font-size="16"
+fill="#E2E8F0">
+
+Turning coffee into clean Python code
+and interactive React components.
+
+</text>
+
+<!-- Skill Bars -->
+
+<text
+x="170"
+y="355"
+font-size="16"
+fill="white">
+
+Python
+
+</text>
+
+<rect
+x="240"
+y="340"
+width="220"
+height="12"
+rx="6"
+fill="#1E293B"/>
+
+<rect
+x="240"
+y="340"
+width="200"
+height="12"
+rx="6"
+fill="#3776AB"/>
+
+<text
+x="500"
+y="355"
+font-size="16"
+fill="white">
+
+React
+
+</text>
+
+<rect
+x="560"
+y="340"
+width="220"
+height="12"
+rx="6"
+fill="#1E293B"/>
+
+<rect
+x="560"
+y="340"
+width="160"
+height="12"
+rx="6"
+fill="#61DAFB"/>
+
+<!-- Floating Cards -->
+
+<rect
+x="80"
+y="150"
+width="120"
+height="70"
+rx="30"
+fill="#3776AB33"/>
+
+<text
+x="140"
+y="190"
+text-anchor="middle"
+font-size="18"
+fill="white">
+
+WEB DEV
+
+</text>
+
+<rect
+x="800"
+y="150"
+width="120"
+height="70"
+rx="30"
+fill="#8B5CF633"/>
+
+<text
+x="860"
+y="190"
+text-anchor="middle"
+font-size="18"
+fill="white">
+
+UI/UX
+
+</text>
+
 </svg>
