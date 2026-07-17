@@ -1,1 +1,270 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="500"></svg>
+<svg width="420"
+height="760"
+viewBox="0 0 420 760"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="strap"
+x1="0%" y1="0%"
+x2="100%" y2="100%">
+
+<stop offset="0%" stop-color="#8B5CF6"/>
+<stop offset="100%" stop-color="#06B6D4"/>
+
+</linearGradient>
+
+<linearGradient id="glass"
+x1="0%" y1="0%"
+x2="100%" y2="100%">
+
+<stop offset="0%"
+stop-color="#FFFFFF"
+stop-opacity="0.28"/>
+
+<stop offset="100%"
+stop-color="#FFFFFF"
+stop-opacity="0.05"/>
+
+</linearGradient>
+
+<radialGradient id="glow">
+
+<stop offset="0%"
+stop-color="#8B5CF6"
+stop-opacity="0.6"/>
+
+<stop offset="100%"
+stop-color="#8B5CF6"
+stop-opacity="0"/>
+
+</radialGradient>
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="25"
+stdDeviation="25"
+flood-color="#000000"
+flood-opacity="0.35"/>
+
+</filter>
+
+</defs>
+
+<!-- Floating animation -->
+
+<g>
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="0 0;0 -15;0 0"
+dur="6s"
+repeatCount="indefinite"/>
+
+<!-- Strap -->
+
+<rect
+x="185"
+y="0"
+width="50"
+height="180"
+rx="25"
+fill="url(#strap)"/>
+
+<circle
+cx="210"
+cy="195"
+r="22"
+fill="#D1D5DB"/>
+
+<!-- Glow -->
+
+<circle
+cx="210"
+cy="430"
+r="180"
+fill="url(#glow)"/>
+
+<!-- Main Card -->
+
+<rect
+x="50"
+y="220"
+width="320"
+height="470"
+rx="55"
+fill="#0F172ACC"
+stroke="#FFFFFF33"
+stroke-width="2"
+filter="url(#shadow)"/>
+
+<!-- Glass Reflection -->
+
+<rect
+x="70"
+y="240"
+width="280"
+height="120"
+rx="40"
+fill="url(#glass)"/>
+
+<!-- Shine Animation -->
+
+<rect
+x="-200"
+y="220"
+width="100"
+height="470"
+fill="#FFFFFF22"
+transform="rotate(18)">
+
+<animate
+attributeName="x"
+values="-250;600"
+dur="5s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Avatar -->
+
+<circle
+cx="210"
+cy="360"
+r="95"
+fill="#111827"
+stroke="#8B5CF6"
+stroke-width="4"/>
+
+<!-- Replace emoji with your PNG later -->
+
+<text
+x="210"
+y="385"
+text-anchor="middle"
+font-size="72">
+
+👨‍💻
+
+</text>
+
+<!-- Name -->
+
+<text
+x="210"
+y="500"
+text-anchor="middle"
+fill="white"
+font-size="24"
+font-weight="700"
+font-family="Segoe UI">
+
+SHERLA
+
+</text>
+
+<text
+x="210"
+y="535"
+text-anchor="middle"
+fill="white"
+font-size="24"
+font-weight="700"
+font-family="Segoe UI">
+
+HARSHAVARDHAN
+
+</text>
+
+<!-- Role -->
+
+<text
+x="210"
+y="580"
+text-anchor="middle"
+fill="#CBD5E1"
+font-size="17"
+font-family="Segoe UI">
+
+Full Stack Python Developer
+
+</text>
+
+<!-- GitHub -->
+
+<text
+x="210"
+y="615"
+text-anchor="middle"
+fill="#94A3B8"
+font-size="15">
+
+@sherlaharsha04-crypto
+
+</text>
+
+<!-- Tech Pills -->
+
+<rect
+x="85"
+y="645"
+width="75"
+height="30"
+rx="15"
+fill="#3776AB"/>
+
+<text
+x="122"
+y="665"
+text-anchor="middle"
+fill="white"
+font-size="13">
+
+Python
+
+</text>
+
+<rect
+x="172"
+y="645"
+width="70"
+height="30"
+rx="15"
+fill="#61DAFB"/>
+
+<text
+x="207"
+y="665"
+text-anchor="middle"
+fill="#000"
+font-size="13">
+
+React
+
+</text>
+
+<rect
+x="255"
+y="645"
+width="80"
+height="30"
+rx="15"
+fill="#E34F26"/>
+
+<text
+x="295"
+y="665"
+text-anchor="middle"
+fill="white"
+font-size="13">
+
+HTML/CSS
+
+</text>
+
+</g>
+
+</svg>
